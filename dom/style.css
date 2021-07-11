@@ -1,0 +1,35 @@
+body{
+    
+    background-color: dodgerblue;
+}
+.forms{
+    margin-top: 120px;
+    text-align: center;
+}
+.username{
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;   
+}
+.forms{
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    text-transform: capitalize;  
+}
+.btn{
+    border: none; 
+    border-radius: 50px;
+    margin-left: 160px;
+    background-color: #FF1D36;
+    color:white;
+    width: 200px;
+    height: 40px;
+}
+.btn:hover{
+   
+    background-color: lightgreen;
+    color: black;
+   font-style: bold;
+
+}
