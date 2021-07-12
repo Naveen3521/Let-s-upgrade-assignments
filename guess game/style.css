@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+    font-size: 40px;
+}
+body{
+    background-color: rgb(14, 100, 187);
+}
+
+.container{
+    width: 80%;
+    padding-top: px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    
+}
+.padd{
+    padding:20px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 300px;
+    width: 18%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #ff4f5b;
+    background-size: cover;
+}
+
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(212, 209, 209);
+    border-radius: 15px;
+}
+
+.opened{
+    display: none;
+    
+}
+.cards.images{
+    height: 300px;
+    width:15%
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+}
